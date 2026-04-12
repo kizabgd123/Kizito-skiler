@@ -1,0 +1,8 @@
+[default]
+cpu_timeout_seconds = 300
+
+[validation_thresholds]
+baseline_oof_score = 0.85
+
+[validation_thresholds.oof_calibration_rule]
+threshold = 0.5
